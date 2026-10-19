@@ -1,0 +1,2 @@
+# Ежедневно в 02:30, лог — в файл бэкапа и syslog-хвост в /var/log
+30 2 * * * /opt/backup/backup.sh /opt/backup/backup.conf >> /var/log/mybackup-cron.log 2>&1

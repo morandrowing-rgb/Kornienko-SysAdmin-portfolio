@@ -1,0 +1,4 @@
+# name,host,port,type  (type: tcp|http)
+localhost-ssh,127.0.0.1,22,tcp
+localhost-http,127.0.0.1,8000,http
+example-https,example.com,443,tcp

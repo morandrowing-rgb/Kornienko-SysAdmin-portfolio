@@ -1,0 +1,7 @@
+# Минимальный пример участка smb.conf для файлового ресурса стенда (Samba).
+# [share]
+#   path = /srv/share
+#   browseable = yes
+#   writable = yes
+#   valid users = @domain_users
+# Перед применением: testparm -s smb.conf.example  (проверка синтаксиса Samba)

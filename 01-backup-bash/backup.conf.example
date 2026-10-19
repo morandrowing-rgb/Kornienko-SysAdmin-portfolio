@@ -1,0 +1,4 @@
+# Скопируйте в backup.conf и поправьте пути. Файл backup.conf не коммитить.
+SOURCE_DIRS="/etc /srv/data"
+DEST_DIR="/var/backups/mybackup"
+RETENTION_DAYS=14

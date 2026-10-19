@@ -1,0 +1,5 @@
+.backup-test/
+*.log
+backup.conf
+__pycache__/
+report.json
